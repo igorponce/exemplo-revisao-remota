@@ -104,4 +104,10 @@ $("#btnStopReview").click(function(){
 	$("#divInstrucao").show();
     $("#divQuestao").hide();
 
+    Swal.fire(
+				  'Sucesso',
+				  'Sua questão foi enviada para a próxima etapa de revisão!',
+				  'success'
+				);
+
 });
